@@ -3,8 +3,8 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # Specify your gem's dependencies in rails_faraday_tracer.gemspec
-gem 'opentracing'
-gem 'zipkin'
-gem 'faraday'
+# gem 'opentracing'
+# gem 'zipkin'
+# gem 'faraday'
 
 gemspec
