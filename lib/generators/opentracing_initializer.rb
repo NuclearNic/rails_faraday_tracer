@@ -1,3 +1,5 @@
+require 'rails/generators'
+
 class InitializerGenerator < Rails::Generators::Base
   desc "This generator creates an initializer file at config/initializers"
   def create_initializer_file
