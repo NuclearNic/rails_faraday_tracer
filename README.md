@@ -16,6 +16,16 @@ Or install it yourself as:
 
     $ gem install rails_faraday_tracer
 
+The gem requires assets to be installed, to do so run:
+
+    $ rails g rails_faraday_tracer:install
+
+Finally, add the following line to development.rb in your application:
+
+```ruby
+config.middleware.use Tracer
+```
+
 ## Usage
 
 TODO: Write usage instructions here
