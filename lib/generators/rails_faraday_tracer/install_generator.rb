@@ -8,6 +8,8 @@ module RailsFaradayTracer
 
       def copy_initializer
         template "rails_faraday_tracer_initializer.rb", "config/initializers/rails_faraday_tracer.rb"
+        template "faraday_tracer.rb", "app/middlware/faraday_tracer.rb"
+        template "tracer.rb", "app/middlware/tracer.rb"
 
         puts "Install complete! Truly Outrageous!"
       end
