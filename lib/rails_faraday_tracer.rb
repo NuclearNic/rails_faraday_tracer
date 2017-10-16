@@ -1,4 +1,5 @@
 require 'rails_faraday_tracer/version'
+require 'faraday'
 # STILL NEED TO THINK ABOUT THESE THINGIES:
 # require 'rails_faraday_tracer/railtie'
 # require 'generators/opentracing_initializer'
