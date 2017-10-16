@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["NuclearNic"]
   spec.email         = ["nuclearnicdev@gmaill.com"]
 
-  spec.summary       = %q{A gem for instrumenting an application with a tracer.}
+  spec.summary       = %q{This gem is not finished! #lol A gem for instrumenting an application with a tracer.}
   # spec.description   = %q{TODO: Write a longer description or delete this line.}
   spec.homepage      = "https://github.com/NuclearNic/rails_faraday_tracer"
   spec.license       = "MIT"
