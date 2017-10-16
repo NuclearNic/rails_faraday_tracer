@@ -8,10 +8,17 @@ module RailsFaradayTracer
 
       def copy_initializer
         template "rails_faraday_tracer_initializer.rb", "config/initializers/rails_faraday_tracer.rb"
-        template "faraday_tracer.rb", "app/middlware/faraday_tracer.rb"
-        template "tracer.rb", "app/middlware/tracer.rb"
+        puts "Initializer added successfully"
+      end
 
-        puts "Install complete! Truly Outrageous!"
+      def copy_faraday_tracer_middleware
+        template "faraday_tracer.rb", "app/middleware/faraday_tracer.rb"
+        puts "Faraday middleware added successfully"
+      end
+
+      def copy_tracer_middleware
+        template "tracer.rb", "app/middleware/tracer.rb"
+        puts "Tracer middleware added successfully"
       end
     end
   end
